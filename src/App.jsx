@@ -17,14 +17,14 @@ const App = () => {
       <Navbar />
       <Banner />
       <Client />
-      <Manage/>
-      <Experince/>
-      <BusinessReinvent/>
-      <Design/>
-      <CustomersReview/>
-      <Commuinity/>
-      <LetUsDoTheWork/>
-      <Footer/>
+      <Manage />
+      <Experince />
+      <BusinessReinvent />
+      <Design />
+      <CustomersReview />
+      <Commuinity />
+      <LetUsDoTheWork />
+      <Footer />
     </>
   );
 };
