@@ -1,8 +1,8 @@
 import React from "react";
 import { AiOutlineArrowRight } from "react-icons/ai";
-import img1 from '../assets/images/community/image1.png'
-import img2 from '../assets/images/community/image2.png'
-import img3 from '../assets/images/community/image3.png'
+import img1 from "../assets/images/community/image1.png";
+import img2 from "../assets/images/community/image2.png";
+import img3 from "../assets/images/community/image3.png";
 const Commuinity = () => {
   return (
     <>

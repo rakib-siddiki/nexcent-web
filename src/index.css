@@ -4,7 +4,7 @@
 
 @layer components {
   .btn {
-    @apply bg-primary py-2 md:py-[14px] px-5 md:px-8 text-white rounded-sm font-primary font-medium hover:bg-white hover:text-primary border-primary border duration-300;
+    @apply bg-primary py-2 md:py-[14px] px-5 md:px-8 text-white rounded-sm font-primary font-medium hover:bg-white hover:text-primary border-primary border duration-300 active:scale-95;
   }
   .title {
     @apply font-primary font-semibold text-2xl sm:text-4xl text-title sm:leading-[50px];
@@ -12,7 +12,7 @@
   .pera {
     @apply font-primary text-base text-paragraph;
   }
-  .footer-text{
-    @apply font-primary text-sm text-[#F5F7FA]
+  .footer-text {
+    @apply font-primary text-sm text-[#F5F7FA];
   }
 }

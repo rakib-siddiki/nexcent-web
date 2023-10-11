@@ -4,7 +4,7 @@ import bannerImg from "../assets/images/banner.png";
 const Banner = () => {
   return (
     <>
-      <section className="lg:h-screen py-5 md:py-24 lg:py-28 xl:py-40 bg-behind ">
+      <section className="lg:h-screen py-6 md:py-24 lg:py-28 xl:py-40 bg-behind ">
         <div className=" container md:flex justify-between items-center">
           {/* left side  */}
           <div>
