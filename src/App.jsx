@@ -8,7 +8,7 @@ import BusinessReinvent from "./comonents/BusinessReinvent";
 import Design from "./comonents/Design";
 import CustomersReview from "./comonents/CustomersReview";
 import Commuinity from "./comonents/Commuinity";
-import LetUsDoTheWork from "./comonents/letUsDoTheWork";
+import LetUsDoTheWork from "./comonents/LetUsDoTheWork";
 import Footer from "./comonents/Footer";
 
 const App = () => {
