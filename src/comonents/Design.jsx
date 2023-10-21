@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import img from "../assets/images/design/sideImg.svg";
 const Design = () => {
   const [show, setShow] = useState(false);

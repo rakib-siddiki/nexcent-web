@@ -1,4 +1,4 @@
-import React from "react";
+
 import Navbar from "./comonents/Navbar";
 import Banner from "./comonents/Banner";
 import Client from "./comonents/Client";

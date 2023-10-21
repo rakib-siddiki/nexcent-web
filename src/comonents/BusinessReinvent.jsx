@@ -1,4 +1,4 @@
-import React from "react";
+
 import memberIcon from "../assets/images/business/member.svg";
 import clubsIcon from "../assets/images/business/clubs.png";
 import eventBookingIcon from "../assets/images/business/eventBooking.svg";
@@ -6,15 +6,15 @@ import paymentIcon from "../assets/images/business/payment.svg";
 const BusinessReinvent = () => {
   return (
     <>
-      <section className=" my-12 bg-behind">
+      <section id="Feature" className=" my-12 bg-behind">
         <div className=" md:grid grid-cols-2 py-16  container">
           {/* left */}
           <div className="container text-center md:text-left">
-            <h1 className="title font-semibold max-w-[408px] text-lg sm:text-xl md:text-2xl  lg:text-4xl mb-2 mx-auto md:mx-0 ">
+            <h1 className="title font-semibold max-w-[408px] text-2xl w-[17rem] sm:w-full sm:text-xl md:text-2xl  lg:text-4xl mb-2 mx-auto md:mx-0 ">
               Helping a local{" "}
               <span className="text-primary">business reinvent itself</span>
             </h1>
-            <p className="pera text-sm xl:text-base  text-[#18191F] mb-3 ">
+            <p className="pera text-xs xl:text-base  text-[#18191F] mb-3 ">
               We reached here with our hard work and dedication
             </p>
           </div>

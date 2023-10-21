@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import img from "../assets/images/experince.svg";
 const Experince = () => {
   const [show, setShow] = useState(false);

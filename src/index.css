@@ -15,4 +15,7 @@
   .footer-text {
     @apply font-primary text-sm text-[#F5F7FA];
   }
+  .underline-effect{
+    @apply relative after:absolute after:content-[''] after:left-0 after:bottom-0 after:w-0 after:h-[2px] hover:after:w-16  after:bg-yellow-200 md:after:bg-primary after:duration-300
+  }
 }

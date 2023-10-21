@@ -1,4 +1,4 @@
-import React from "react";
+
 import logo from "../assets/images/footer/footerLogo.svg";
 import instagram from "../assets/images/footer/instagram.svg";
 import SocialIcons from "../assets/images/footer/SocialIcons.svg";
@@ -8,7 +8,7 @@ import sendIcon from "../assets/images/footer/send.svg";
 const Footer = () => {
   return (
     <>
-      <section className="bg-[#263238]">
+      <section id="FAQ" className="bg-[#263238]">
         <div className="container py-8 sm:py-10 md:py-16 md:flex md:justify-between xl:justify-start">
           <div className="xl:w-2/4">
             <img src={logo} alt="" />

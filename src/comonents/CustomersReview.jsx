@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 import productImg from "../assets/images/customerReview/product.png";
 import { AiOutlineArrowRight } from "react-icons/ai";
 
@@ -8,13 +8,12 @@ import logo3 from "../assets/images/clients-logo/Logo3.svg";
 import logo4 from "../assets/images/clients-logo/Logo4.svg";
 import logo5 from "../assets/images/clients-logo/Logo5.svg";
 import logo6 from "../assets/images/clients-logo/Logo6.svg";
-import { flushSync } from "react-dom";
 
 const CustomersReview = () => {
   const [show, setShow] = useState(false);
   return (
     <>
-      <section className="bg-behind pt-12">
+      <section id="Product" className="bg-behind pt-12 mt-6 md:mt-0">
         <div className="container md:flex justify-between md:items-center">
           <div>
             <img

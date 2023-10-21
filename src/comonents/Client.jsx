@@ -1,4 +1,3 @@
-import React from "react";
 import logo from "../assets/images/clients-logo/Logo1.svg";
 import logo2 from "../assets/images/clients-logo/Logo2.svg";
 import logo3 from "../assets/images/clients-logo/Logo3.svg";
@@ -8,7 +7,7 @@ import logo6 from "../assets/images/clients-logo/Logo6.svg";
 const Client = () => {
   return (
     <>
-      <section className="py-10">
+      <section id="Service" className="py-10">
         {/* title  */}
         <div className="text-center container">
           <h1 className="title">Our Clients</h1>
